@@ -13,6 +13,7 @@ def bisseccao(f, a, b, epsilon):
 
     return (a + b) / 2
 
+
 # Exemplo de uso:
 if __name__ == "__main__":
     # Função exemplo: f(x) = x^3 - x^2 - 2

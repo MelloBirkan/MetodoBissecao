@@ -18,11 +18,11 @@ def bisseccao(f, a, b, epsilon):
 if __name__ == "__main__":
     # Função exemplo: f(x) = x^3 - x^2 - 2
     def f(x):
-        return x**3 - x**2 - 2
+        return x**3 + 4*x**2 - 10
 
     a = 1
     b = 2
-    epsilon = 1e-6
+    epsilon = 1e-1
 
     raiz = bisseccao(f, a, b, epsilon)
     print(f"A raiz aproximada de f no intervalo [{a}, {b}] com tolerância {epsilon} é {raiz}.")

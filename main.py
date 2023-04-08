@@ -50,7 +50,7 @@ if __name__ == "__main__":
     b = 1
     epsilon = 1e-2
     print("\nA)")
-    aplicarBisseccao(A, a, b, epsilon, 3)
+    aplicarBisseccao(A, a, b, epsilon, 6)
 
 
 
@@ -78,9 +78,9 @@ if __name__ == "__main__":
 
 
     def D(x):
-        return x*cos*x - 2*x**2 + 3*x - 1
+        return x*cos(x) - 2*x**2 + 3*x - 1
 
-    intervalos = [(-3, -2), (-1, 0)]
+    intervalos = [(0.2, 0.3), (1.2, 1.3)]
     epsilon = 1e-3
     print("\nD) ")
     for i, (a, b) in enumerate(intervalos):
